@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="./js/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./js/colorbox/colorbox.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/jquery-ui/jquery-ui.min.js"></script>
+    <script src="./js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="./js/colorbox/jquery.colorbox-min.js"></script>
+    <script src="./js/helpers.js"></script>
+    <script src="./js/js.js"></script>
+</head>
+<body class="is-home-page">
+
+
+<div id="header">
+
+    <div class="header-block">
+        <div class="inner container flex flex-middle">
+            <div class="menu-link-and-logo flex flex-middle">
+                <div class="only-tablet-or-mobile">
+                    <a href="#" class="menu-link" data-mobile-menu-toggle>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+                <a href="#" class="logo">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                <ul class="flex">
+                    <li><a href="#">Клиника</a></li>
+                    <li>
+                        <a href="#">Услуги</a>
+                        <ul>
+                            <li><a href="#">Косметология</a></li>
+                            <li><a href="#">Дерматология</a></li>
+                            <li><a href="#">Генетическое тестирование</a></li>
+                            <li><a href="#">Эстетическая гинекология</a></li>
+                            <li><a href="#">Терапия ксеноном</a></li>
+                            <li><a href="#">Трихология</a></li>
+                            <li><a href="#">Подология</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Вопросы</a></li>
+                    <li><a href="#">Прейскурант</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="contacts flex flex-middle">
+                <div class="phone">
+                    <a href="tel:74956616131">+7 (495) 661-61-31</a>
+                </div>
+                <div class="consult">
+                    <a href="#" class="button" data-ui-dialog-link="consult-form">Запись на консультацию</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu" data-mobile-menu>
+        <div class="overlay"></div>
+        <div class="inner">
+            <div class="container">
+                <div class="header flex flex-left flex-middle">
+                    <a href="#" class="close" data-mobile-menu-toggle></a>
+                    <a href="#" class="logo">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Клиника</a></li>
+                        <li>
+                            <a href="#">Услуги</a>
+                            <ul>
+                                <li><a href="#">Косметология</a></li>
+                                <li><a href="#">Дерматология</a></li>
+                                <li><a href="#">Генетическое тестирование</a></li>
+                                <li><a href="#">Эстетическая гинекология</a></li>
+                                <li><a href="#">Терапия ксеноном</a></li>
+                                <li><a href="#">Трихология</a></li>
+                                <li><a href="#">Подология</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Вопросы</a></li>
+                        <li><a href="#">Прейскурант</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="promo-block">
+        <div class="container">
+            <div class="inner">
+                <div class="info">
+                    <div class="title">
+                        Ваш путь<br>
+                        к совершенству —<br>
+                        наша профессия
+                    </div>
+                    <div class="text">
+                        Методики преображения в клинике интеллектуальнойм<br>
+                        эстетической медицины
+                    </div>
+                </div>
+                <div class="discount">
+                    <div class="percent-and-info flex flex-left flex-middle">
+                        <div class="percent">10%</div>
+                        <div class="info">
+                            Запишитесь на консультацию прямо сейчас<br>
+                            и получите скидку на первую процедуру
+                        </div>
+                    </div>
+                    <div class="order">
+                        <a href="#" class="button" data-ui-dialog-link="consult-form">Оставить заявку</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="center">
+
+    <div class="experience-block block">
+        <div class="container">
+            <div class="items flex flex-nowrap flex-middle">
+                <div class="text-left">
+                    Наши врачи-эксперты, преподаватели высших медицинских учреждений, уже помогли многим обрести
+                    гармонию и уверенность.
+                </div>
+                <div class="year flex flex-center flex-middle">
+                    <div class="year-inner">
+                        <div class="value">20</div>
+                        <div class="text">
+                            лет на рынке
+                        </div>
+                    </div>
+                </div>
+                <div class="text-right">
+                    Сотрудники beautyclass работают в сфере эстетической медицины более 20 лет
+                </div>
+            </div>
+            <div class="footer-text">
+                Ключевые принципы нашей работы - индивидуальный подход<br>
+                к каждому и бережное отношение навсегда.
+            </div>
+        </div>
+    </div>
+
+    <div class="great-offers-block block grey">
+        <div class="container">
+            <div class="block-header flex flex-middle">
+                <div class="block-title">Выгодные предложения</div>
+                <div class="show-all">
+                    <a href="#" class="button">Все акции</a>
+                </div>
+            </div>
+            <div class="products-list owl-carousel">
+                <div class="products-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info flex flex-column">
+                        <div class="name-and-text">
+                            <div class="name">
+                                <a href="#">Outline Gel</a>
+                            </div>
+                            <div class="text">
+                                Жидкие бионити: биоармирование проблемных зон лица и тела
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Лицо</div>
+                                <div class="old-price">16 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">12 000</div>
+                            </div>
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Тело</div>
+                                <div class="old-price">28 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">22 000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info flex flex-column">
+                        <div class="name-and-text">
+                            <div class="name">
+                                <a href="#">Outline Gel</a>
+                            </div>
+                            <div class="text">
+                                Жидкие бионити: биоармирование проблемных зон лица и тела
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Лицо</div>
+                                <div class="old-price">16 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">12 000</div>
+                            </div>
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Тело</div>
+                                <div class="old-price">28 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">22 000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info flex flex-column">
+                        <div class="name-and-text">
+                            <div class="name">
+                                <a href="#">Outline Gel</a>
+                            </div>
+                            <div class="text">
+                                Жидкие бионити: биоармирование проблемных зон лица и тела
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Лицо</div>
+                                <div class="old-price">16 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">12 000</div>
+                            </div>
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Тело</div>
+                                <div class="old-price">28 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">22 000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info flex flex-column">
+                        <div class="name-and-text">
+                            <div class="name">
+                                <a href="#">Outline Gel</a>
+                            </div>
+                            <div class="text">
+                                Жидкие бионити: биоармирование проблемных зон лица и тела
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Лицо</div>
+                                <div class="old-price">16 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">12 000</div>
+                            </div>
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Тело</div>
+                                <div class="old-price">28 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">22 000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-services-block block">
+        <div class="container">
+            <div class="block-title">Наши услуги</div>
+            <div class="inner flex flex-nowrap">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#" class="active" data-our-services-link="1">Косметология</a></li>
+                        <li><a href="#" data-our-services-link="2">Дерматология</a></li>
+                        <li><a href="#" data-our-services-link="3">Генетическое тестирование</a></li>
+                        <li><a href="#" data-our-services-link="4">Эстетическая гинекология</a></li>
+                        <li><a href="#" data-our-services-link="5">Терапия ксеноном</a></li>
+                        <li><a href="#" data-our-services-link="6">Трихология</a></li>
+                        <li><a href="#" data-our-services-link="7">Подология</a></li>
+                    </ul>
+                </div>
+                <div class="img-and-info flex flex-nowrap">
+                    <div class="img">
+                        <div class="img-inner active" data-our-services-img="1">
+                            <img src="./img/service1.png" alt="">
+                        </div>
+                        <div class="img-inner" data-our-services-img="2">
+                            <img src="./img/service2.png" alt="">
+                        </div>
+                        <div class="img-inner" data-our-services-img="3">
+                            <img src="./img/service1.png" alt="">
+                        </div>
+                        <div class="img-inner" data-our-services-img="4">
+                            <img src="./img/service1.png" alt="">
+                        </div>
+                        <div class="img-inner" data-our-services-img="5">
+                            <img src="./img/service1.png" alt="">
+                        </div>
+                        <div class="img-inner" data-our-services-img="6">
+                            <img src="./img/service1.png" alt="">
+                        </div>
+                        <div class="img-inner" data-our-services-img="7">
+                            <img src="./img/service1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="info-inner active" data-our-services-info="1">
+                            <div class="green">
+                                <div class="name">Отделение косметологии Beauty Class Clinic 1</div>
+                                <div class="text">
+                                    Косметология основной своей целью имеет создание здорового, а значит, красивого облика
+                                    человека путем коррекции эстетических изъянов лица и тела. Для достижения этой цели она
+                                    использует инъекционные и аппаратные методы, а также профессиональные средства по уходу
+                                    за
+                                    кожей.
+                                </div>
+                                <div class="items">
+                                    <ul>
+                                        <li><a href="#">Инъекции Ботокса</a></li>
+                                        <li><a href="#">Массаж</a></li>
+                                        <li><a href="#">Озонотерапия</a></li>
+                                        <li><a href="#">Контурная пластика</a></li>
+                                        <li><a href="#">Морщины</a></li>
+                                        <li><a href="#">Дряблая кожа</a></li>
+                                    </ul>
+                                </div>
+                                <div class="more">
+                                    <a href="#">все услуги</a>
+                                </div>
+                            </div>
+                            <div class="consult">
+                                <a href="#" class="button" data-ui-dialog-link="consult-form">Запись на консультацию</a>
+                            </div>
+                        </div>
+                        <div class="info-inner" data-our-services-info="2">
+                            <div class="green">
+                                <div class="name">Отделение косметологии Beauty Class Clinic 2</div>
+                                <div class="text">
+                                    Косметология основной своей целью имеет создание здорового, а значит, красивого облика
+                                    человека путем коррекции эстетических изъянов лица и тела. Для достижения этой цели она
+                                    использует инъекционные и аппаратные методы, а также профессиональные средства по уходу
+                                    за
+                                    кожей.
+                                </div>
+                                <div class="items">
+                                    <ul>
+                                        <li><a href="#">Инъекции Ботокса</a></li>
+                                        <li><a href="#">Массаж</a></li>
+                                        <li><a href="#">Озонотерапия</a></li>
+                                        <li><a href="#">Контурная пластика</a></li>
+                                        <li><a href="#">Морщины</a></li>
+                                        <li><a href="#">Дряблая кожа</a></li>
+                                    </ul>
+                                </div>
+                                <div class="more">
+                                    <a href="#">все услуги</a>
+                                </div>
+                            </div>
+                            <div class="consult">
+                                <a href="#" class="button" data-ui-dialog-link="consult-form">Запись на консультацию</a>
+                            </div>
+                        </div>
+                        <div class="info-inner" data-our-services-info="3">
+                            <div class="green">
+                                <div class="name">Отделение косметологии Beauty Class Clinic 3</div>
+                                <div class="text">
+                                    Косметология основной своей целью имеет создание здорового, а значит, красивого облика
+                                    человека путем коррекции эстетических изъянов лица и тела. Для достижения этой цели она
+                                    использует инъекционные и аппаратные методы, а также профессиональные средства по уходу
+                                    за
+                                    кожей.
+                                </div>
+                                <div class="items">
+                                    <ul>
+                                        <li><a href="#">Инъекции Ботокса</a></li>
+                                        <li><a href="#">Массаж</a></li>
+                                        <li><a href="#">Озонотерапия</a></li>
+                                        <li><a href="#">Контурная пластика</a></li>
+                                        <li><a href="#">Морщины</a></li>
+                                        <li><a href="#">Дряблая кожа</a></li>
+                                    </ul>
+                                </div>
+                                <div class="more">
+                                    <a href="#">все услуги</a>
+                                </div>
+                            </div>
+                            <div class="consult">
+                                <a href="#" class="button" data-ui-dialog-link="consult-form">Запись на консультацию</a>
+                            </div>
+                        </div>
+                        <div class="info-inner" data-our-services-info="4">
+                            <div class="green">
+                                <div class="name">Отделение косметологии Beauty Class Clinic 4</div>
+                                <div class="text">
+                                    Косметология основной своей целью имеет создание здорового, а значит, красивого облика
+                                    человека путем коррекции эстетических изъянов лица и тела. Для достижения этой цели она
+                                    использует инъекционные и аппаратные методы, а также профессиональные средства по уходу
+                                    за
+                                    кожей.
+                                </div>
+                                <div class="items">
+                                    <ul>
+                                        <li><a href="#">Инъекции Ботокса</a></li>
+                                        <li><a href="#">Массаж</a></li>
+                                        <li><a href="#">Озонотерапия</a></li>
+                                        <li><a href="#">Контурная пластика</a></li>
+                                        <li><a href="#">Морщины</a></li>
+                                        <li><a href="#">Дряблая кожа</a></li>
+                                    </ul>
+                                </div>
+                                <div class="more">
+                                    <a href="#">все услуги</a>
+                                </div>
+                            </div>
+                            <div class="consult">
+                                <a href="#" class="button" data-ui-dialog-link="consult-form">Запись на консультацию</a>
+                            </div>
+                        </div>
+                        <div class="info-inner" data-our-services-info="5">
+                            <div class="green">
+                                <div class="name">Отделение косметологии Beauty Class Clinic 5</div>
+                                <div class="text">
+                                    Косметология основной своей целью имеет создание здорового, а значит, красивого облика
+                                    человека путем коррекции эстетических изъянов лица и тела. Для достижения этой цели она
+                                    использует инъекционные и аппаратные методы, а также профессиональные средства по уходу
+                                    за
+                                    кожей.
+                                </div>
+                                <div class="items">
+                                    <ul>
+                                        <li><a href="#">Инъекции Ботокса</a></li>
+                                        <li><a href="#">Массаж</a></li>
+                                        <li><a href="#">Озонотерапия</a></li>
+                                        <li><a href="#">Контурная пластика</a></li>
+                                        <li><a href="#">Морщины</a></li>
+                                        <li><a href="#">Дряблая кожа</a></li>
+                                    </ul>
+                                </div>
+                                <div class="more">
+                                    <a href="#">все услуги</a>
+                                </div>
+                            </div>
+                            <div class="consult">
+                                <a href="#" class="button" data-ui-dialog-link="consult-form">Запись на консультацию</a>
+                            </div>
+                        </div>
+                        <div class="info-inner" data-our-services-info="6">
+                            <div class="green">
+                                <div class="name">Отделение косметологии Beauty Class Clinic 6</div>
+                                <div class="text">
+                                    Косметология основной своей целью имеет создание здорового, а значит, красивого облика
+                                    человека путем коррекции эстетических изъянов лица и тела. Для достижения этой цели она
+                                    использует инъекционные и аппаратные методы, а также профессиональные средства по уходу
+                                    за
+                                    кожей.
+                                </div>
+                                <div class="items">
+                                    <ul>
+                                        <li><a href="#">Инъекции Ботокса</a></li>
+                                        <li><a href="#">Массаж</a></li>
+                                        <li><a href="#">Озонотерапия</a></li>
+                                        <li><a href="#">Контурная пластика</a></li>
+                                        <li><a href="#">Морщины</a></li>
+                                        <li><a href="#">Дряблая кожа</a></li>
+                                    </ul>
+                                </div>
+                                <div class="more">
+                                    <a href="#">все услуги</a>
+                                </div>
+                            </div>
+                            <div class="consult">
+                                <a href="#" class="button" data-ui-dialog-link="consult-form">Запись на консультацию</a>
+                            </div>
+                        </div>
+                        <div class="info-inner" data-our-services-info="7">
+                            <div class="green">
+                                <div class="name">Отделение косметологии Beauty Class Clinic 7</div>
+                                <div class="text">
+                                    Косметология основной своей целью имеет создание здорового, а значит, красивого облика
+                                    человека путем коррекции эстетических изъянов лица и тела. Для достижения этой цели она
+                                    использует инъекционные и аппаратные методы, а также профессиональные средства по уходу
+                                    за
+                                    кожей.
+                                </div>
+                                <div class="items">
+                                    <ul>
+                                        <li><a href="#">Инъекции Ботокса</a></li>
+                                        <li><a href="#">Массаж</a></li>
+                                        <li><a href="#">Озонотерапия</a></li>
+                                        <li><a href="#">Контурная пластика</a></li>
+                                        <li><a href="#">Морщины</a></li>
+                                        <li><a href="#">Дряблая кожа</a></li>
+                                    </ul>
+                                </div>
+                                <div class="more">
+                                    <a href="#">все услуги</a>
+                                </div>
+                            </div>
+                            <div class="consult">
+                                <a href="#" class="button" data-ui-dialog-link="consult-form">Запись на консультацию</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="out-doctors-block block">
+        <div class="container">
+            <div class="block-header flex">
+                <div class="block-title">Наши<br>специалисты</div>
+                <div class="block-info">
+                    Наши врачи-эксперты, преподаватели высших <br>
+                    медицинских учреждений, уже помогли многим <br>
+                    обрести гармонию и уверенность.
+                </div>
+            </div>
+        </div>
+        <div class="items">
+            <div class="doctors-list owl-carousel">
+                <div class="doctors-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/doc1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                        </div>
+                        <div class="text">
+                            Врач-дерматокосметолог, главный врач клиники
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/doc2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <a href="#">Шаманаев<br>Сергей Вячеславович</a>
+                        </div>
+                        <div class="text">
+                            Врач-дерматокосметолог, главный врач клиники
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/doc1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                        </div>
+                        <div class="text">
+                            Врач-дерматокосметолог, главный врач клиники
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/doc2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <a href="#">Шаманаев<br>Сергей Вячеславович</a>
+                        </div>
+                        <div class="text">
+                            Врач-дерматокосметолог, главный врач клиники
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/doc1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                        </div>
+                        <div class="text">
+                            Врач-дерматокосметолог, главный врач клиники
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/doc1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                        </div>
+                        <div class="text">
+                            Врач-дерматокосметолог, главный врач клиники
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/doc1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                        </div>
+                        <div class="text">
+                            Врач-дерматокосметолог, главный врач клиники
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/doc2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <a href="#">Шаманаев<br>Сергей Вячеславович</a>
+                        </div>
+                        <div class="text">
+                            Врач-дерматокосметолог, главный врач клиники
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/doc1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                        </div>
+                        <div class="text">
+                            Врач-дерматокосметолог, главный врач клиники
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/doc1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                        </div>
+                        <div class="text">
+                            Врач-дерматокосметолог, главный врач клиники
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/doc1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                        </div>
+                        <div class="text">
+                            Врач-дерматокосметолог, главный врач клиники
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider-block block">
+        <div class="inner flex flex-nowrap">
+
+            <div class="slider">
+                <div class="slider-inner">
+                    <div class="owl-carousel">
+                        <div class="item">
+                            <img src="./img/slide1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./img/slide1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./img/slide1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./img/slide1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./img/slide1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./img/slide1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="counter flex flex-left flex-middle">
+                        <span data-slider-block-counter-current class="current">01</span>
+                        <span class="sep"></span>
+                        <span class="total">06</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-and-thumbs flex flex-column">
+                <div class="info">
+                    <div class="name">Атмосфера клиники</div>
+                    <div class="text">
+                        <p>
+                            Мы стараемся создать атмосферу максимального комфорта для каждого пациента.
+                        </p>
+                        <p>
+                            Все оборудование в процедурных кабинетах сертифицировано и регулярно проходит проверку
+                            техническими специалистами.
+                        </p>
+                    </div>
+                </div>
+                <div class="thumbs">
+                    <div class="thumbs-inner">
+                        <div class="owl-carousel">
+                            <div class="item">
+                                <img src="./img/thumb1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./img/thumb2.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./img/thumb1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./img/thumb2.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./img/thumb1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./img/thumb2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="footer">
+    <div class="footer-block">
+        <div class="inner container flex flex-top">
+            <div class="menu" data-footer-item>
+                <div class="name">Клиника</div>
+                <ul data-footer-item-content>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Специалисты</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Партнеры</a></li>
+                    <li><a href="#">Прейскурант</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="menu" data-footer-item>
+                <div class="name">Отделения</div>
+                <ul data-footer-item-content>
+                    <li><a href="#">Косметология</a></li>
+                    <li><a href="#">Дерматология</a></li>
+                    <li><a href="#">Генетическое тестирование</a></li>
+                    <li><a href="#">Эстетическая гинекология</a></li>
+                    <li><a href="#">Терапия ксеноном</a></li>
+                    <li><a href="#">Трихология</a></li>
+                    <li><a href="#">Подология</a></li>
+                </ul>
+            </div>
+            <div class="contacts" data-footer-item>
+                <div class="name">Контакты</div>
+                <div class="items" data-footer-item-content>
+                    <div class="address">119408, г. Москва, ул. Трубецкая, 12</div>
+                    <div class="phone">
+                        <a href="tel:74956616131">+7 (495) 661-61-31</a>
+                    </div>
+                    <div class="email">
+                        <a href="mailto:info@bc-clinic.ru">info@bc-clinic.ru</a>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe">
+                <div class="name-and-text">
+                    <div class="name">Подписка</div>
+                    <div class="text">
+                        Получайте актуальную<br>
+                        информацию<br>
+                        о спецпредложениях
+                    </div>
+                </div>
+                <form action="#">
+                    <div class="form-inner">
+                        <div class="form-group">
+                            <input type="text" name="email" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Подписаться</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div data-ui-dialog="consult-form"
+    data-ui-dialog-width="500"
+     data-ui-dialog-title="Запись на консультацию"
+>
+    <form action="#" class="consult-form">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Имя">
+        </div>
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Телефон">
+        </div>
+        <div class="form-group">
+            <button type="submit">Отправить заявку</button>
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>
