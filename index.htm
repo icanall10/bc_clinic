@@ -63,7 +63,12 @@
             </div>
             <div class="contacts flex flex-middle">
                 <div class="phone">
-                    <a href="tel:74956616131">+7 (495) 661-61-31</a>
+                    <div class="only-tablet-or-mobile">
+                        <a href="tel:74956616131">+7 (495) 661-61-31</a>
+                    </div>
+                    <div class="only-desktop">
+                        +7 (495) 661-61-31
+                    </div>
                 </div>
                 <div class="consult">
                     <a href="#" class="button" data-ui-dialog-link="consult-form">Запись на консультацию</a>
@@ -88,12 +93,66 @@
                         <li>
                             <a href="#">Услуги</a>
                             <ul>
-                                <li><a href="#">Косметология</a></li>
-                                <li><a href="#">Дерматология</a></li>
-                                <li><a href="#">Генетическое тестирование</a></li>
-                                <li><a href="#">Эстетическая гинекология</a></li>
-                                <li><a href="#">Терапия ксеноном</a></li>
-                                <li><a href="#">Трихология</a></li>
+                                <li>
+                                    <a href="#">Косметология</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Дерматология</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Генетическое тестирование</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Эстетическая гинекология</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Терапия ксеноном</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Трихология</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#">Подология</a></li>
                             </ul>
                         </li>
@@ -188,23 +247,10 @@
                             <div class="name">
                                 <a href="#">Outline Gel</a>
                             </div>
-                            <div class="text">
-                                Жидкие бионити: биоармирование проблемных зон лица и тела
-                            </div>
                         </div>
-                        <div class="fields">
-                            <div class="field flex flex-left flex-nowrap">
-                                <div class="label">Лицо</div>
-                                <div class="old-price">16 000</div>
-                                <div class="discount">-25%</div>
-                                <div class="price">12 000</div>
-                            </div>
-                            <div class="field flex flex-left flex-nowrap">
-                                <div class="label">Тело</div>
-                                <div class="old-price">28 000</div>
-                                <div class="discount">-25%</div>
-                                <div class="price">22 000</div>
-                            </div>
+                        <div class="discount flex flex-left flex-middle flex-nowrap">
+                            <div class="value">-10%</div>
+                            <div class="discount-text">Скидка при заказе двух профилей</div>
                         </div>
                     </div>
                 </div>
@@ -562,13 +608,13 @@
             <div class="doctors-list owl-carousel">
                 <div class="doctors-list-item">
                     <div class="img">
-                        <a href="#">
+                        <a href="#" data-ui-dialog-link="doctor-detail-1">
                             <img src="./img/doc1.png" alt="">
                         </a>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                            <a href="#" data-ui-dialog-link="doctor-detail-1">Терентьева<br>Лада Владимировна</a>
                         </div>
                         <div class="text">
                             Врач-дерматокосметолог, главный врач клиники
@@ -577,13 +623,13 @@
                 </div>
                 <div class="doctors-list-item">
                     <div class="img">
-                        <a href="#">
+                        <a href="#" data-ui-dialog-link="doctor-detail-1">
                             <img src="./img/doc2.png" alt="">
                         </a>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <a href="#">Шаманаев<br>Сергей Вячеславович</a>
+                            <a href="#" data-ui-dialog-link="doctor-detail-1">Шаманаев<br>Сергей Вячеславович</a>
                         </div>
                         <div class="text">
                             Врач-дерматокосметолог, главный врач клиники
@@ -592,13 +638,13 @@
                 </div>
                 <div class="doctors-list-item">
                     <div class="img">
-                        <a href="#">
+                        <a href="#" data-ui-dialog-link="doctor-detail-1">
                             <img src="./img/doc1.png" alt="">
                         </a>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                            <a href="#" data-ui-dialog-link="doctor-detail-1">Терентьева<br>Лада Владимировна</a>
                         </div>
                         <div class="text">
                             Врач-дерматокосметолог, главный врач клиники
@@ -607,13 +653,13 @@
                 </div>
                 <div class="doctors-list-item">
                     <div class="img">
-                        <a href="#">
+                        <a href="#" data-ui-dialog-link="doctor-detail-1">
                             <img src="./img/doc2.png" alt="">
                         </a>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <a href="#">Шаманаев<br>Сергей Вячеславович</a>
+                            <a href="#" data-ui-dialog-link="doctor-detail-1">Шаманаев<br>Сергей Вячеславович</a>
                         </div>
                         <div class="text">
                             Врач-дерматокосметолог, главный врач клиники
@@ -622,13 +668,13 @@
                 </div>
                 <div class="doctors-list-item">
                     <div class="img">
-                        <a href="#">
+                        <a href="#" data-ui-dialog-link="doctor-detail-1">
                             <img src="./img/doc1.png" alt="">
                         </a>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                            <a href="#" data-ui-dialog-link="doctor-detail-1">Терентьева<br>Лада Владимировна</a>
                         </div>
                         <div class="text">
                             Врач-дерматокосметолог, главный врач клиники
@@ -637,13 +683,13 @@
                 </div>
                 <div class="doctors-list-item">
                     <div class="img">
-                        <a href="#">
+                        <a href="#" data-ui-dialog-link="doctor-detail-1">
                             <img src="./img/doc1.png" alt="">
                         </a>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                            <a href="#" data-ui-dialog-link="doctor-detail-1">Терентьева<br>Лада Владимировна</a>
                         </div>
                         <div class="text">
                             Врач-дерматокосметолог, главный врач клиники
@@ -652,13 +698,13 @@
                 </div>
                 <div class="doctors-list-item">
                     <div class="img">
-                        <a href="#">
+                        <a href="#" data-ui-dialog-link="doctor-detail-1">
                             <img src="./img/doc1.png" alt="">
                         </a>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                            <a href="#" data-ui-dialog-link="doctor-detail-1">Терентьева<br>Лада Владимировна</a>
                         </div>
                         <div class="text">
                             Врач-дерматокосметолог, главный врач клиники
@@ -667,13 +713,13 @@
                 </div>
                 <div class="doctors-list-item">
                     <div class="img">
-                        <a href="#">
+                        <a href="#" data-ui-dialog-link="doctor-detail-1">
                             <img src="./img/doc2.png" alt="">
                         </a>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <a href="#">Шаманаев<br>Сергей Вячеславович</a>
+                            <a href="#" data-ui-dialog-link="doctor-detail-1">Шаманаев<br>Сергей Вячеславович</a>
                         </div>
                         <div class="text">
                             Врач-дерматокосметолог, главный врач клиники
@@ -682,13 +728,13 @@
                 </div>
                 <div class="doctors-list-item">
                     <div class="img">
-                        <a href="#">
+                        <a href="#" data-ui-dialog-link="doctor-detail-1">
                             <img src="./img/doc1.png" alt="">
                         </a>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                            <a href="#" data-ui-dialog-link="doctor-detail-1">Терентьева<br>Лада Владимировна</a>
                         </div>
                         <div class="text">
                             Врач-дерматокосметолог, главный врач клиники
@@ -697,13 +743,13 @@
                 </div>
                 <div class="doctors-list-item">
                     <div class="img">
-                        <a href="#">
+                        <a href="#" data-ui-dialog-link="doctor-detail-1">
                             <img src="./img/doc1.png" alt="">
                         </a>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                            <a href="#" data-ui-dialog-link="doctor-detail-1">Терентьева<br>Лада Владимировна</a>
                         </div>
                         <div class="text">
                             Врач-дерматокосметолог, главный врач клиники
@@ -712,13 +758,13 @@
                 </div>
                 <div class="doctors-list-item">
                     <div class="img">
-                        <a href="#">
+                        <a href="#" data-ui-dialog-link="doctor-detail-1">
                             <img src="./img/doc1.png" alt="">
                         </a>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <a href="#">Терентьева<br>Лада Владимировна</a>
+                            <a href="#" data-ui-dialog-link="doctor-detail-1">Терентьева<br>Лада Владимировна</a>
                         </div>
                         <div class="text">
                             Врач-дерматокосметолог, главный врач клиники
@@ -884,6 +930,93 @@
             <button type="submit">Отправить заявку</button>
         </div>
     </form>
+</div>
+
+
+<div data-ui-dialog="doctor-detail-1"
+     data-ui-dialog-width="1600"
+     data-ui-dialog-class="without-title without-padding"
+>
+
+    <div class="doctor-detail flex flex-nowrap">
+        <div class="left">
+            <div class="img">
+                <img src="./img/doc3.jpg" alt="">
+            </div>
+            <div class="work-time-and-consult">
+                <div class="work-time">
+                    <div class="label">График работы</div>
+                    <div class="items">
+                        <div class="item flex">
+                            <div class="day">Вторник</div>
+                            <div class="time">11:00 - 18:30</div>
+                        </div>
+                        <div class="item flex">
+                            <div class="day">Среда</div>
+                            <div class="time">11:00 - 18:30</div>
+                        </div>
+                        <div class="item flex">
+                            <div class="day">Четверг</div>
+                            <div class="time">11:00 - 18:30</div>
+                        </div>
+                        <div class="item flex">
+                            <div class="day">Пятница</div>
+                            <div class="time">11:00 - 18:30</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="consult">
+                    <a href="#" class="button small" data-ui-dialog-link="consult-form">Записаться на прием</a>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="title">Федотова<br>Елизавета Юрьевна</div>
+            <div class="work">Врач-косметолог</div>
+            <div class="info">
+                <div class="item">
+                    <b>Стаж работы:</b> более 20 лет.
+                </div>
+                <div class="item">
+                    <b>Специализация:</b> эстетическая косметология.
+                </div>
+            </div>
+            <div class="html-text">
+                <p>
+                    Сертифицированный специалист в области инъекционной косметологии, владеет лазерными, крио- и
+                    радиоволновыми методами коррекции фигуры, а также проводит anti-age терапию. Сертифицированный
+                    мастер
+                    LPG.
+                </p>
+                <h3>Выполняет процедуры:</h3>
+                <ul>
+                    <li>лечебная мезотерапия;</li>
+                    <li>биоревитализация;</li>
+                    <li>озонотерапия;</li>
+                    <li>лазерная, крио- и радиоволновая коррекция фигуры;</li>
+                    <li>anti-age терапия.</li>
+                </ul>
+                <h3>Образование:</h3>
+                <p>
+                    2004 г. – Окончание Казанского государственного медицинского университета.
+                </p>
+                <h3>Повышение квалификации:</h3>
+                <p>
+                    Кафедра дерматокосметологии РУДН. <br>
+                    Курс обучения по работе с филлерами на основе гиалуроновой кислоты.<br>
+                    Курс обучения по программам комплексного омоложения лица.<br>
+                    Курс обучения по теме: "Методы мезотерапии в эстетической медицине".<br>
+                    Курс обучения по программам биоревитализации.<br>
+                    Курс обучения по теме: "Клинические аспекты применения современных аппаратных методов и клеточных
+                    технологий в эстетической медицине" (Fraxel, Zeltiq, LPG).<br>
+                    Курс обучения по теме "Использование озона в косметологии".<br>
+                    Курс обучения по теме "Применение инъекционных методик в решении эстетических проблем тела".<br>
+                    Курс обучения по постановке мезонитей.
+                </p>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 

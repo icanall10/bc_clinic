@@ -13,13 +13,19 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VHiVDH72yawl1kAp8bmnLqDGIO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\web\domains\bc-clinic.test\js" />
       <recent name="C:\web\domains\bc-clinic.test" />
       <recent name="C:\web\domains\bc-clinic.test\img" />
     </key>
@@ -53,11 +59,26 @@
       <workItem from="1577556129397" duration="4498000" />
       <workItem from="1577588851885" duration="4297000" />
       <workItem from="1577633085342" duration="1723000" />
-      <workItem from="1577673131378" duration="18330000" />
+      <workItem from="1577673131378" duration="18930000" />
+      <workItem from="1577726862354" duration="85000" />
+      <workItem from="1578494567832" duration="10014000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

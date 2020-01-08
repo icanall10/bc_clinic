@@ -242,8 +242,14 @@
 
     .footer-block .subscribe {
         display: block;
-        margin: 0 -20px;
-        padding: 20px;
+        margin: 0;
+        padding: 20px 0;
+    }
+    .footer-block .subscribe:before {
+        left: -20px;
+    }
+    .footer-block .subscribe:after {
+        right: -20px;
     }
     .footer-block .subscribe .name {
         padding: 0;
@@ -269,6 +275,11 @@
         display: flex;
         justify-content: center;
     }
+    .footer-block .subscribe button {
+        width: auto;
+        padding: 0 20px;
+    }
+
     .footer-block .menu,
     .footer-block .contacts {
         padding: 0;
@@ -329,11 +340,14 @@
         padding: 20px;
     }
     .ui-dialog .ui-dialog-title {
+        font-size: 24px;
         margin-bottom: 20px;
+        margin-right: 40px;
     }
     .ui-dialog .ui-dialog-titlebar-close {
         transform: scale(0.7);
     }
+
     input[type="text"] {
         font-size: 16px;
     }
@@ -434,11 +448,17 @@
         box-shadow: none;
     }
     .service-info-block {
-        padding-top: 120px;
+        padding-top: 180px;
         padding-bottom: 0;
         margin: 0;
         background-position: 0 0;
         background-size: 100% auto;
+    }
+    .service-info-block:after {
+        bottom: auto;
+        height: 180px;
+        background-size: 100% auto;
+        left: -0;
     }
     .service-info-block .consult .button {
         font-size: 14px;
@@ -522,6 +542,9 @@
     .doctors-page .doctors-list-item {
         margin: 0 auto 25px;
     }
+    .doctors-page .doctors-list {
+        display: block;
+    }
 
     .contacts-page .items {
         display: block;
@@ -535,6 +558,45 @@
     .contacts-page .map,
     .contacts-page .map > ymaps {
         height: 270px !important;
+    }
+
+    .doctor-detail {
+        display: block;
+    }
+    .doctor-detail .left {
+        width: auto;
+    }
+
+    .doctor-detail .work-time-and-consult {
+        padding: 20px;
+    }
+    .doctor-detail .right {
+        padding: 20px;
+    }
+
+    .service-doctors-block.grey {
+        margin-right: -20px;
+        padding-right: 20px;
+    }
+    .service-doctors-block .owl-nav {
+        margin-top: 15px;
+    }
+
+
+    .header-box .img {
+        margin: 0 -20px;
+        overflow: hidden;
+    }
+    .header-box .img img {
+        max-width: unset;
+        height: 170px;
+    }
+    .header-box .info {
+        margin-top: 0;
+    }
+
+    .prices-box .item:hover {
+        box-shadow: none;
     }
 
 }

@@ -28,7 +28,18 @@
                     dialogClass: className
                 });
 
+                behaviors();
+
                 return false;
+            });
+
+
+        $('select:visible')
+            .once('select2', function () {
+                $(this).select2({
+                    width: 'auto',
+                    dropdownParent: $(this).closest('.form-group')
+                });
             });
 
 
@@ -143,15 +154,6 @@
             });
 
 
-        $('.faq-list .item .name')
-            .once()
-            .click(function () {
-                $(this)
-                    .closest('.item')
-                    .toggleClass('open');
-            });
-
-
         $('.licenses-list.owl-carousel')
             .once()
             .owlCarousel({
@@ -251,6 +253,71 @@
                     .toggle();
 
                 wrapper.toggleClass('open');
+            });
+
+
+        $('.contacts-page .map')
+            .once(function () {
+                ymaps.ready(function () {
+                    let coords = [55.727004, 37.574552];
+
+                    let map = new ymaps.Map('map', {
+                        center: coords,
+                        zoom: 16,
+                        controls: ['zoomControl']
+                    });
+
+                    map.behaviors.disable('scrollZoom');
+
+                    let myPlacemark = new ymaps.Placemark(coords, {
+                        hintContent: 'Трубецкая улица, 12',
+                        balloonContent: 'Трубецкая улица, 12'
+                    }, {
+                        iconLayout: 'default#image',
+                        iconImageHref: 'img/mark.png',
+                        iconImageSize: [49, 64],
+                        iconImageOffset: [-24, -60]
+                    });
+
+                    map.geoObjects.add(myPlacemark);
+                });
+            });
+
+
+        $('[data-faq-menu-link]')
+            .once()
+            .click(function () {
+                var key = $(this).attr('data-faq-menu-link');
+
+                $('[data-faq-menu-link]').removeClass('active');
+                $('[data-faq-menu-link="' + key + '"]').addClass('active');
+
+                $('[data-faq-list]').removeClass('active');
+                $('[data-faq-list="' + key + '"]').addClass('active');
+
+                return false;
+            });
+
+
+        $('.before-after .owl-carousel')
+            .once()
+            .owlCarousel({
+                items: 1,
+                dots: false,
+                nav: true
+            });
+
+
+        $('.mobile-menu .menu a')
+            .once()
+            .click(function(){
+                var ul = $(this).closest('li').children('ul');
+
+                if (ul.length) {
+                    ul.toggle();
+
+                    return false;
+                }
             });
 
     }

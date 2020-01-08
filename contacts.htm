@@ -20,6 +20,9 @@
     <script src="./js/colorbox/jquery.colorbox-min.js"></script>
     <script src="./js/helpers.js"></script>
     <script src="./js/js.js"></script>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=1acbc7f0-e82d-4a29-bcdd-6869aafa3490&lang=ru_RU" type="text/javascript">
+    </script>
 </head>
 <body class="is-prices-page">
 
@@ -88,12 +91,66 @@
                         <li>
                             <a href="#">Услуги</a>
                             <ul>
-                                <li><a href="#">Косметология</a></li>
-                                <li><a href="#">Дерматология</a></li>
-                                <li><a href="#">Генетическое тестирование</a></li>
-                                <li><a href="#">Эстетическая гинекология</a></li>
-                                <li><a href="#">Терапия ксеноном</a></li>
-                                <li><a href="#">Трихология</a></li>
+                                <li>
+                                    <a href="#">Косметология</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Дерматология</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Генетическое тестирование</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Эстетическая гинекология</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Терапия ксеноном</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Трихология</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#">Подология</a></li>
                             </ul>
                         </li>
@@ -157,9 +214,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="map">
-                    <script type="text/javascript" charset="utf-8" async
-                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad4e92bb76a5eb00323f294c284a831a7c01b495905739f8de1ad831c38698dbe&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                <div class="map" id="map">
+
                 </div>
             </div>
         </div>
