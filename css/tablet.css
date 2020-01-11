@@ -488,7 +488,6 @@
 
         box-shadow: 0 0 18px 0 rgba(62, 64, 83, 0.19);
     }
-
     body.is-home-page .mobile-menu .inner {
         padding: 25px 0;
     }
@@ -553,6 +552,16 @@
         display: none;
     }
 
+    .mobile-menu .consult {
+        margin-top: 35px;
+    }
+    .mobile-menu .consult a {
+        display: block;
+        text-align: center;
+        padding: 0 10px;
+        font-size: 15px;
+    }
+
     .ui-dialog {
         max-width: 100%;
         box-sizing: border-box;
@@ -589,11 +598,15 @@
         padding: 20px 20px 20px 0;
     }
 
-    .faq-page .faq-list {
-        display: none;
-    }
     .faq-menu-block a.active:after {
-        display: none;
+
+    }
+
+    .faq-list .item:first-child {
+        border-top: none;
+    }
+    .faq-list .item:last-child {
+        border-bottom: none;
     }
 
     .gallery-header-block {
@@ -857,6 +870,17 @@
     }
     .doctor-detail .work {
         font-size: 22px;
+    }
+
+    .doctor-page .doctor-detail .work-time-and-consult {
+        padding: 30px;
+    }
+    .doctor-page .doctor-detail .right {
+        padding: 0 30px 30px;
+    }
+    .doctor-detail .consult a {
+        padding: 0 10px;
+        font-size: 16px;
     }
 
 }

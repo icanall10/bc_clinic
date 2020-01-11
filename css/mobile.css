@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
     html body {
-
+        min-width: 320px;
     }
     .container {
         width: auto;
@@ -329,6 +329,9 @@
         display: flex;
         justify-content: center;
     }
+    .faq-menu-block {
+        margin-bottom: 20px;
+    }
     .faq-menu-block a {
         padding: 20px;
     }
@@ -360,6 +363,10 @@
     }
     .faq-detail .header .text {
         font-size: 18px;
+    }
+    .faq-list {
+        margin-left: -20px;
+        margin-right: -20px;
     }
     .faq-list .item {
         padding: 20px;
@@ -565,6 +572,7 @@
     }
     .doctor-detail .left {
         width: auto;
+        margin-bottom: 20px;
     }
 
     .doctor-detail .work-time-and-consult {
@@ -598,5 +606,18 @@
     .prices-box .item:hover {
         box-shadow: none;
     }
+
+    .doctor-page.page {
+        margin-bottom: 25px;
+    }
+    .doctor-page .doctor-detail .work-time-and-consult {
+        padding: 20px;
+    }
+    .doctor-page .doctor-detail .right {
+        padding: 0;
+    }
+
+
+
 
 }

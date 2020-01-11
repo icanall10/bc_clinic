@@ -1990,3 +1990,36 @@ body.is-doctors-page .footer-block {
 .prices-box .icon-new {
     background: #50b848;
 }
+
+.services-popup ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.services-popup li {
+    width: 33.33%;
+    box-sizing: border-box;
+    padding-right: 25px;
+    margin-bottom: 14px;
+}
+.services-popup li a {
+    display: block;
+    text-decoration: none;
+}
+.services-popup li a:hover {
+    color: #5eb200;
+}
+
+.doctor-page.page {
+    margin-bottom: 0;
+}
+.doctor-page .doctor-detail .work-time-and-consult {
+    padding: 40px;
+}
+.doctor-page .doctor-detail .right {
+    padding: 0 40px 40px;
+}
+
+body.is-doctor-page .footer-block {
+    margin-top: 0;
+}
