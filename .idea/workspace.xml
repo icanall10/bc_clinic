@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="06e94079-1271-446a-8e18-3b2811dbaad9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.htm" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doctor.htm" beforeDir="false" afterPath="$PROJECT_DIR$/doctor.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tablet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doctors.htm" beforeDir="false" afterPath="$PROJECT_DIR$/doctors.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq-item.htm" beforeDir="false" afterPath="$PROJECT_DIR$/faq-item.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.htm" beforeDir="false" afterPath="$PROJECT_DIR$/faq.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.htm" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licenses.htm" beforeDir="false" afterPath="$PROJECT_DIR$/licenses.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prices.htm" beforeDir="false" afterPath="$PROJECT_DIR$/prices.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-detail.htm" beforeDir="false" afterPath="$PROJECT_DIR$/service-detail.htm" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -88,7 +83,8 @@
       <workItem from="1577726862354" duration="85000" />
       <workItem from="1578494567832" duration="11738000" />
       <workItem from="1578566268742" duration="10000" />
-      <workItem from="1578726089637" duration="2374000" />
+      <workItem from="1578726089637" duration="2550000" />
+      <workItem from="1579376380329" duration="888000" />
     </task>
     <servers />
   </component>

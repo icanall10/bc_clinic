@@ -548,6 +548,8 @@
 
     .doctors-page .doctors-list-item {
         margin: 0 auto 25px;
+        width: 480px;
+        max-width: 100%;
     }
     .doctors-page .doctors-list {
         display: block;
@@ -617,7 +619,14 @@
         padding: 0;
     }
 
-
-
+    .order-block-2 {
+        margin-bottom: 0;
+    }
+    .order-block-2 .form-title {
+        font-size: 24px;
+    }
+    .order-block-2 .form-title br {
+        display: none;
+    }
 
 }
