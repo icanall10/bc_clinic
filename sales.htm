@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="./js/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./js/colorbox/colorbox.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/jquery-ui/jquery-ui.min.js"></script>
+    <script src="./js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="./js/colorbox/jquery.colorbox-min.js"></script>
+    <script src="./js/helpers.js"></script>
+    <script src="./js/js.js"></script>
+</head>
+<body>
+
+
+<div id="header">
+
+    <div class="header-block">
+        <div class="inner container flex flex-middle">
+            <div class="menu-link-and-logo flex flex-middle">
+                <div class="only-tablet-or-mobile">
+                    <a href="#" class="menu-link" data-mobile-menu-toggle>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+                <a href="#" class="logo">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                <ul class="flex">
+                    <li><a href="#">Клиника</a></li>
+                    <li>
+                        <a href="#">Услуги</a>
+                        <ul>
+                            <li><a href="#">Косметология</a></li>
+                            <li><a href="#">Дерматология</a></li>
+                            <li><a href="#">Генетическое тестирование</a></li>
+                            <li><a href="#">Эстетическая гинекология</a></li>
+                            <li><a href="#">Терапия ксеноном</a></li>
+                            <li><a href="#">Трихология</a></li>
+                            <li><a href="#">Подология</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Вопросы</a></li>
+                    <li><a href="#">Прейскурант</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="contacts flex flex-middle">
+                <div class="phone">
+                    <div class="only-tablet-or-mobile">
+                        <a href="tel:74956616131">+7 (495) 661-61-31</a>
+                    </div>
+                    <div class="only-desktop">
+                        +7 (495) 661-61-31
+                    </div>
+                </div>
+                <div class="consult">
+                    <a href="#" class="button" data-ui-dialog-link="consult-form">Запись на консультацию</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu" data-mobile-menu>
+        <div class="overlay"></div>
+        <div class="inner">
+            <div class="container">
+                <div class="header flex flex-left flex-middle">
+                    <a href="#" class="close" data-mobile-menu-toggle></a>
+                    <a href="#" class="logo">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Клиника</a></li>
+                        <li>
+                            <a href="#">Услуги</a>
+                            <ul>
+                                <li>
+                                    <a href="#">Косметология</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Дерматология</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Генетическое тестирование</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Эстетическая гинекология</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Терапия ксеноном</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Трихология</a>
+                                    <ul>
+                                        <li><a href="#">Генетическое тестирование</a></li>
+                                        <li><a href="#">Эстетическая гинекология</a></li>
+                                        <li><a href="#">Терапия ксеноном</a></li>
+                                        <li><a href="#">Трихология</a></li>
+                                        <li><a href="#">Подология</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Подология</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Вопросы</a></li>
+                        <li><a href="#">Прейскурант</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="consult">
+                    <a href="#" class="button ui-dialog-processed" data-ui-dialog-link="consult-form">Запись на консультацию</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="center">
+
+    <div class="container">
+        <h1>Акции</h1>
+    </div>
+
+    <div class="sales-page">
+        <div class="container">
+            <div class="products-list">
+                <div class="products-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info flex flex-column">
+                        <div class="name-and-text">
+                            <div class="name">
+                                <a href="#">Outline Gel</a>
+                            </div>
+                        </div>
+                        <div class="discount flex flex-left flex-middle flex-nowrap">
+                            <div class="value">-10%</div>
+                            <div class="discount-text">Скидка при заказе двух профилей</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info flex flex-column">
+                        <div class="name-and-text">
+                            <div class="name">
+                                <a href="#">Outline Gel</a>
+                            </div>
+                            <div class="text">
+                                Жидкие бионити: биоармирование проблемных зон лица и тела
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Лицо</div>
+                                <div class="old-price">16 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">12 000</div>
+                            </div>
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Тело</div>
+                                <div class="old-price">28 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">22 000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info flex flex-column">
+                        <div class="name-and-text">
+                            <div class="name">
+                                <a href="#">Outline Gel</a>
+                            </div>
+                            <div class="text">
+                                Жидкие бионити: биоармирование проблемных зон лица и тела
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Лицо</div>
+                                <div class="old-price">16 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">12 000</div>
+                            </div>
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Тело</div>
+                                <div class="old-price">28 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">22 000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-list-item">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info flex flex-column">
+                        <div class="name-and-text">
+                            <div class="name">
+                                <a href="#">Outline Gel</a>
+                            </div>
+                            <div class="text">
+                                Жидкие бионити: биоармирование проблемных зон лица и тела
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Лицо</div>
+                                <div class="old-price">16 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">12 000</div>
+                            </div>
+                            <div class="field flex flex-left flex-nowrap">
+                                <div class="label">Тело</div>
+                                <div class="old-price">28 000</div>
+                                <div class="discount">-25%</div>
+                                <div class="price">22 000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="footer">
+    <div class="footer-block">
+        <div class="inner container flex flex-top">
+            <div class="menu" data-footer-item>
+                <div class="name">Клиника</div>
+                <ul data-footer-item-content>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Специалисты</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Партнеры</a></li>
+                    <li><a href="#">Прейскурант</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="menu" data-footer-item>
+                <div class="name">Отделения</div>
+                <ul data-footer-item-content>
+                    <li><a href="#">Косметология</a></li>
+                    <li><a href="#">Дерматология</a></li>
+                    <li><a href="#">Генетическое тестирование</a></li>
+                    <li><a href="#">Эстетическая гинекология</a></li>
+                    <li><a href="#">Терапия ксеноном</a></li>
+                    <li><a href="#">Трихология</a></li>
+                    <li><a href="#">Подология</a></li>
+                </ul>
+            </div>
+            <div class="contacts" data-footer-item>
+                <div class="name">Контакты</div>
+                <div class="items" data-footer-item-content>
+                    <div class="address">119408, г. Москва, ул. Трубецкая, 12</div>
+                    <div class="phone">
+                        <a href="tel:74956616131">+7 (495) 661-61-31</a>
+                    </div>
+                    <div class="email">
+                        <a href="mailto:info@bc-clinic.ru">info@bc-clinic.ru</a>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe">
+                <div class="name-and-text">
+                    <div class="name">Подписка</div>
+                    <div class="text">
+                        Получайте актуальную<br>
+                        информацию<br>
+                        о спецпредложениях
+                    </div>
+                </div>
+                <form action="#">
+                    <div class="form-inner">
+                        <div class="form-group">
+                            <input type="text" name="email" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Подписаться</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div data-ui-dialog="consult-form"
+     data-ui-dialog-width="500"
+     data-ui-dialog-title="Запись на консультацию"
+>
+    <form action="#" class="consult-form">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Имя">
+        </div>
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Телефон">
+        </div>
+        <div class="form-group">
+            <button type="submit">Отправить заявку</button>
+        </div>
+    </form>
+</div>
+
+
+<div data-ui-dialog="ask-form"
+     data-ui-dialog-width="500"
+     data-ui-dialog-title="Задать вопрос"
+>
+    <form action="#" class="ask-form">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Имя">
+        </div>
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Телефон">
+        </div>
+        <div class="form-group">
+            <textarea rows="4" name="text" placeholder="Вопрос"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+</div>
+
+
+<div data-ui-dialog="doctor-detail-1"
+     data-ui-dialog-width="1600"
+     data-ui-dialog-class="without-title without-padding"
+>
+
+    <div class="doctor-detail flex flex-nowrap">
+        <div class="left">
+            <div class="img">
+                <img src="./img/doc3.jpg" alt="">
+            </div>
+            <div class="work-time-and-consult">
+                <div class="work-time">
+                    <div class="label">График работы</div>
+                    <div class="items">
+                        <div class="item flex">
+                            <div class="day">Вторник</div>
+                            <div class="time">11:00 - 18:30</div>
+                        </div>
+                        <div class="item flex">
+                            <div class="day">Среда</div>
+                            <div class="time">11:00 - 18:30</div>
+                        </div>
+                        <div class="item flex">
+                            <div class="day">Четверг</div>
+                            <div class="time">11:00 - 18:30</div>
+                        </div>
+                        <div class="item flex">
+                            <div class="day">Пятница</div>
+                            <div class="time">11:00 - 18:30</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="consult">
+                    <a href="#" class="button small" data-ui-dialog-link="consult-form">Записаться на прием</a>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="title">Федотова<br>Елизавета Юрьевна</div>
+            <div class="work">Врач-косметолог</div>
+            <div class="info">
+                <div class="item">
+                    <b>Стаж работы:</b> более 20 лет.
+                </div>
+                <div class="item">
+                    <b>Специализация:</b> эстетическая косметология.
+                </div>
+            </div>
+            <div class="html-text">
+                <p>
+                    Сертифицированный специалист в области инъекционной косметологии, владеет лазерными, крио- и
+                    радиоволновыми методами коррекции фигуры, а также проводит anti-age терапию. Сертифицированный
+                    мастер
+                    LPG.
+                </p>
+                <h3>Выполняет процедуры:</h3>
+                <ul>
+                    <li>лечебная мезотерапия;</li>
+                    <li>биоревитализация;</li>
+                    <li>озонотерапия;</li>
+                    <li>лазерная, крио- и радиоволновая коррекция фигуры;</li>
+                    <li>anti-age терапия.</li>
+                </ul>
+                <h3>Образование:</h3>
+                <p>
+                    2004 г. – Окончание Казанского государственного медицинского университета.
+                </p>
+                <h3>Повышение квалификации:</h3>
+                <p>
+                    Кафедра дерматокосметологии РУДН. <br>
+                    Курс обучения по работе с филлерами на основе гиалуроновой кислоты.<br>
+                    Курс обучения по программам комплексного омоложения лица.<br>
+                    Курс обучения по теме: "Методы мезотерапии в эстетической медицине".<br>
+                    Курс обучения по программам биоревитализации.<br>
+                    Курс обучения по теме: "Клинические аспекты применения современных аппаратных методов и клеточных
+                    технологий в эстетической медицине" (Fraxel, Zeltiq, LPG).<br>
+                    Курс обучения по теме "Использование озона в косметологии".<br>
+                    Курс обучения по теме "Применение инъекционных методик в решении эстетических проблем тела".<br>
+                    Курс обучения по постановке мезонитей.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

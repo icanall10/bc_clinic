@@ -146,8 +146,21 @@
         padding: 0 20px;
     }
 
-    .owl-carousel .products-list-item {
+    .products-list {
+        display: block;
+    }
+    .products-list .products-list-item {
+        margin: 0 0 20px;
         width: auto;
+    }
+    .products-list .products-list-item:last-child {
+        margin-bottom: 0;
+    }
+    .products-list.owl-carousel .products-list-item {
+        margin: 0;
+    }
+    .products-list-item .name-and-text {
+        margin-bottom: 20px;
     }
 
     .our-services-block .block-title:after {

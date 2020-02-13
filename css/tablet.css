@@ -157,8 +157,14 @@
         font-size: 20px;
     }
 
-    .products-list-item {
+    .products-list {
+        justify-content: flex-start;
+    }
+    .products-list .products-list-item {
         width: 260px;
+        margin: 0 30px 30px 0;
+    }
+    .products-list.owl-carousel .products-list-item {
         box-shadow: none;
     }
     .products-list-item .info {
@@ -172,6 +178,15 @@
     }
     .products-list-item .text {
         font-size: 14px;
+    }
+
+    .products-list-item .discount .value {
+        font-size: 19px;
+        min-width: 70px;
+        line-height: 70px;
+    }
+    .products-list-item .discount .discount-text {
+        font-size: 15px;
     }
 
     .owl-carousel .owl-dots {
