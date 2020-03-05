@@ -238,6 +238,8 @@
             .click(function () {
                 $('[data-mobile-menu]').toggle();
 
+                $('.mobile-menu .inner').trigger('initPerfectScrollbar');
+
                 return false;
             });
 
@@ -310,7 +312,7 @@
 
         $('.mobile-menu .menu a')
             .once()
-            .click(function(){
+            .click(function () {
                 var ul = $(this).closest('li').children('ul');
 
                 if (ul.length) {
@@ -318,6 +320,19 @@
 
                     return false;
                 }
+            });
+
+
+        $('.mobile-menu .inner')
+            .once()
+            .on('initPerfectScrollbar', function () {
+                $(this).once('scrollbar', function () {
+                    new PerfectScrollbar(this, {
+                        wheelSpeed: 2,
+                        wheelPropagation: true,
+                        minScrollbarLength: 20
+                    });
+                });
             });
 
     }

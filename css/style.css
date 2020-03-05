@@ -2036,3 +2036,347 @@ body.is-doctors-page .footer-block {
 body.is-doctor-page .footer-block {
     margin-top: 0;
 }
+
+@media screen and (min-width: 1366px) and (max-width: 1650px) {
+    html body {
+        font-size: 18px;
+    }
+
+    .container {
+        margin: 0 30px;
+        width: auto;
+    }
+    .container .container {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+    h2, .h2 {
+        font-size: 35px;
+    }
+    h3, .h3 {
+        font-size: 25px;
+    }
+
+    #right {
+        width: 350px;
+        min-width: 350px;
+    }
+    #left {
+        width: 350px;
+        min-width: 350px;
+        margin-right: 50px;
+    }
+
+    .header-block .menu > ul > li {
+        margin-right: 20px;
+    }
+    .header-block .menu a {
+        font-size: 18px;
+    }
+
+    .header-block .consult .button {
+        padding: 0 20px;
+        line-height: 50px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .header-block .phone {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .header-block .logo img {
+        width: 200px;
+        height: auto;
+    }
+
+    .promo-block .title {
+        font-size: 60px;
+        padding-top: 30px;
+    }
+    .promo-block .text {
+        font-size: 24px;
+    }
+    .promo-block .discount .percent {
+        font-size: 90px;
+    }
+
+    button, .button {
+        padding: 0 25px;
+        height: 54px;
+        line-height: 54px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .promo-block .inner {
+        height: 555px;
+    }
+    .promo-block .discount {
+        margin-top: 40px;
+    }
+
+    .experience-block .text-left,
+    .experience-block .text-right {
+        font-size: 20px;
+    }
+    .experience-block .year .value {
+        font-size: 90px;
+        margin-bottom: 5px;
+    }
+    .experience-block .footer-text {
+        font-size: 25px;
+    }
+
+    .block-title {
+        font-size: 45px;
+    }
+    .block-header, .block-title {
+        margin-bottom: 30px;
+    }
+
+    .block.grey {
+        padding: 30px 0;
+    }
+
+    .products-list-item .info {
+        padding: 22px 30px 30px;
+    }
+    .products-list-item .name a {
+        font-size: 25px;
+    }
+    .products-list-item .name-and-text {
+        margin-bottom: 30px;
+    }
+
+    .owl-carousel .owl-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .owl-carousel .owl-dots button {
+        border-radius: 100px;
+        margin-right: 12px;
+        display: block;
+        text-indent: -9999px;
+        padding: 3px !important;
+        background: transparent;
+        cursor: pointer;
+        height: auto;
+        width: auto;
+    }
+    .owl-carousel .owl-dots button span {
+        display: block;
+        width: 9px;
+        height: 9px;
+        background: #eee;
+        border-radius: 100px;
+    }
+    .owl-carousel .owl-dots button:last-child {
+        margin-right: 0;
+    }
+    .owl-carousel .owl-dots button.active {
+        background: #7bc873;
+    }
+
+    .our-services-block {
+        padding-top: 200px;
+    }
+    .our-services-block .block-title:after {
+        font-size: 194px;
+    }
+
+    .our-services-block .menu a {
+        font-size: 20px;
+    }
+    .our-services-block .menu li {
+        margin-bottom: 15px;
+    }
+    .our-services-block .menu {
+        width: 300px;
+        min-width: 300px;
+    }
+    .our-services-block .img {
+        width: 450px;
+        min-width: 450px;
+    }
+    .our-services-block .info .name {
+        font-size: 35px;
+    }
+    .our-services-block .green {
+        padding: 30px 30px 40px 110px;
+    }
+
+    .out-doctors-block .block-title {
+        padding: 100px 40px 40px 0;
+    }
+    .out-doctors-block .block-info {
+        padding: 125px 0 0 80px;
+        font-size: 25px;
+    }
+
+    .doctors-list-item .name a {
+        font-size: 25px;
+    }
+    .doctors-list-item .name {
+        margin-bottom: 12px;
+    }
+    .doctors-list-item .info {
+        margin-top: 20px;
+    }
+    .out-doctors-block .items {
+        margin-left: 30px;
+    }
+    .slider-block .info {
+        padding: 0 40px 40px;
+    }
+    .slider-block .info .name {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+
+    .footer-block {
+        padding: 30px 0;
+    }
+    .footer-block .menu {
+        width: 20%;
+    }
+    .footer-block .menu li {
+        margin-bottom: 10px;
+    }
+    .footer-block .menu a {
+        font-size: 16px;
+        display: block;
+        line-height: 1.4;
+    }
+
+    .footer-block .subscribe input[type="text"] {
+        font-size: 16px;
+    }
+
+    .contacts-page .footer .text {
+        font-size: 20px;
+    }
+
+    .doctor-page .doctor-detail .work-time-and-consult {
+        padding: 30px;
+    }
+
+    .tabs a {
+        font-size: 20px;
+    }
+
+    .page {
+        margin: 40px 0;
+    }
+
+    .doctors-list-item,
+    .doctors-list-item:nth-child(3n) {
+        width: 380px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .order-block-2 {
+        padding: 30px;
+    }
+    .order-block-2 .form {
+        padding: 30px;
+    }
+    .order-block-2 .container {
+        margin: 0;
+    }
+
+    .faq-list .item {
+        padding: 25px;
+    }
+    .faq-menu-block a .name {
+        font-size: 25px;
+    }
+
+    .gallery-header-block {
+        margin-bottom: 30px;
+    }
+    .gallery-header-block .info {
+        padding: 30px;
+    }
+    .gallery-header-block .info h1 {
+        font-size: 50px;
+    }
+
+    .gallery-list .item,
+    .gallery-list .item:nth-child(3n) {
+        margin: 0 30px 30px 0;
+        width: 400px;
+    }
+    .gallery-list .item img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .licenses-page .right-inner {
+        padding: 40px;
+    }
+
+    .licenses-list .item {
+        width: 380px;
+    }
+    .licenses-list .item img {
+        max-width: 100%;
+        height: auto;
+    }
+    .licenses-page h1 {
+        font-size: 50px;
+    }
+    .licenses-page .left {
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .order-block .right {
+        padding: 40px;
+    }
+
+    .products-list {
+        justify-content: flex-start;
+    }
+    .products-list .products-list-item {
+        margin: 0 30px 30px 0;
+        width: 400px;
+        font-size: 18px;
+    }
+    .products-list-item .text {
+        font-size: 18px;
+    }
+    .products-list-item .discount .value {
+        min-width: 90px;
+        line-height: 90px;
+        font-size: 30px;
+    }
+
+    .service-info-block .info {
+        padding: 40px;
+    }
+    .header-box .info {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 40px;
+    }
+
+    .html-text .image-right img {
+        max-width: 380px;
+        height: auto;
+    }
+    .html-text .margin {
+        margin: 30px 0 30px 60px;
+        clear: both;
+    }
+
+    .block {
+        margin: 40px 0;
+    }
+
+}
