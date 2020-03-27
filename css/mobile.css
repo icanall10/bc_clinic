@@ -40,7 +40,7 @@
 
     body.is-home-page .header-block,
     .header-block {
-        padding: 20px 0;
+        padding: 20px 0 15px;
     }
     body.is-home-page .mobile-menu .inner,
     .mobile-menu .inner {
@@ -52,8 +52,9 @@
     }
     .header-block .contacts {
         width: 100%;
-        margin: 5px 0 0 52px;
+        margin: 50px 0 0 52px;
     }
+
     .menu-link {
         margin-right: 20px;
     }

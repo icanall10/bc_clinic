@@ -415,7 +415,7 @@ textarea::placeholder {
 }
 
 .header-block {
-    padding: 17px 0;
+    padding: 17px 0 58px;
     background: #fff;
     border-bottom: 1px solid #cfdad0;
 }
@@ -425,9 +425,21 @@ textarea::placeholder {
     padding: 0 30px;
     text-transform: none;
 }
+
+.header-block .logo {
+    position: relative;
+}
 .header-block .logo img {
     display: block;
+    margin: 0 auto;
 }
+.header-block .logo .partner {
+    position: absolute;
+    top: 100%;
+    left: 25px;
+    margin-top: 15px;
+}
+
 .header-block .phone {
     margin-right: 46px;
     font-size: 22px;
@@ -2067,6 +2079,9 @@ body.is-doctor-page .footer-block {
         margin-right: 50px;
     }
 
+    .header-block {
+        padding-bottom: 54px;
+    }
     .header-block .menu > ul > li {
         margin-right: 20px;
     }
@@ -2086,6 +2101,13 @@ body.is-doctor-page .footer-block {
     }
     .header-block .logo img {
         width: 200px;
+        height: auto;
+    }
+    .header-block .logo .partner {
+        left: 15px;
+    }
+    .header-block .logo .partner img {
+        width: 170px;
         height: auto;
     }
 

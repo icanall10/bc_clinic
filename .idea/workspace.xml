@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06e94079-1271-446a-8e18-3b2811dbaad9" name="Default Changelist" comment="" />
+    <list default="true" id="06e94079-1271-446a-8e18-3b2811dbaad9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.htm" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tablet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor.htm" beforeDir="false" afterPath="$PROJECT_DIR$/doctor.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctors.htm" beforeDir="false" afterPath="$PROJECT_DIR$/doctors.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq-item.htm" beforeDir="false" afterPath="$PROJECT_DIR$/faq-item.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.htm" beforeDir="false" afterPath="$PROJECT_DIR$/faq.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.htm" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/licenses.htm" beforeDir="false" afterPath="$PROJECT_DIR$/licenses.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prices.htm" beforeDir="false" afterPath="$PROJECT_DIR$/prices.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sales.htm" beforeDir="false" afterPath="$PROJECT_DIR$/sales.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-detail.htm" beforeDir="false" afterPath="$PROJECT_DIR$/service-detail.htm" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +55,18 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/perfect-scrollbar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\web\domains\bc-clinic.test\js\perfect-scrollbar" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\web\domains\bc-clinic.test\img" />
       <recent name="C:\web\domains\bc-clinic.test\js\perfect-scrollbar" />
       <recent name="C:\web\domains\bc-clinic.test\js" />
       <recent name="C:\web\domains\bc-clinic.test" />
-      <recent name="C:\web\domains\bc-clinic.test\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\web\domains\bc-clinic.test\js\perfect-scrollbar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -89,6 +107,8 @@
       <workItem from="1581614439082" duration="1315000" />
       <workItem from="1583423906709" duration="1971000" />
       <workItem from="1583427538063" duration="2881000" />
+      <workItem from="1583635426393" duration="272000" />
+      <workItem from="1585299977206" duration="2370000" />
     </task>
     <servers />
   </component>

@@ -78,12 +78,23 @@
         max-width: 40%;
     }
 
+    .header-block {
+        padding-bottom: 45px;
+        margin-bottom: 20px;
+    }
     .header-block .menu {
         display: none;
     }
     .header-block .logo img {
         height: 30px;
         width: auto;
+    }
+    .header-block .logo .partner {
+        left: 15px;
+    }
+    .header-block .logo .partner img {
+        width: 135px;
+        height: auto;
     }
     .header-block .consult .button {
         line-height: 38px;
