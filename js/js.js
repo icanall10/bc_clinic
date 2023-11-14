@@ -260,6 +260,8 @@
 
         $('.contacts-page .map')
             .once(function () {
+                if (typeof ymaps === "undefined") return;
+
                 ymaps.ready(function () {
                     let coords = [55.727004, 37.574552];
 
