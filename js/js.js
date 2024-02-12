@@ -43,12 +43,14 @@
             });
 
 
-        $('a.colorbox')
-            .once()
-            .colorbox({
-                maxWidth: '100%',
-                maxHeight: '100%'
-            });
+        $('a.colorbox').once('fancybox', function () {
+            let $this = $(this);
+            let rel = $this.attr('rel');
+
+            $this.attr('data-fancybox', rel);
+
+            Fancybox.bind('[data-fancybox="' + rel + '"]');
+        });
 
 
         $('.products-list.owl-carousel')
